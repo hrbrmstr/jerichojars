@@ -1,7 +1,7 @@
 Package: jerichojars
 Type: Package
 Title: Java Archive Wrapper Supporting the 'jericho' Package
-Version: 0.1.0
+Version: 3.4.0
 Date: 2017-09-04
 Authors@R: c(
     person("Bob", "Rudis", role = c("aut", "cre"), email = "bob@rud.is"),
@@ -11,7 +11,8 @@ Maintainer: Bob Rudis <bob@rud.is>
 SystemRequirements: Java
 Description: Contents of the 'Jericho HTML Parser' Java archive by
     Martin Jericho <http://jericho.htmlparser.net/docs/index.html> provided to
-    support functions in the 'jericho' package.
+    support functions in the 'jericho' package. Version number reflects the
+    version number of the included 'JAR' file.
 URL: https://github.com/hrbrmstr/jerichojars
 BugReports: https://github.com/hrbrmstr/jerichojars/issues
 License: Apache License 2.0 | file LICENSE

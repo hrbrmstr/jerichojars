@@ -10,6 +10,8 @@ As a result of using a Java library, this package requires `rJava`.
 
 While the main intent is to use this with `jericho`, you can use it out of the box as-is (see below and the [javadocs](http://jericho.htmlparser.net/docs/javadoc/index.html)).
 
+NOTE: Package version # reflects the version # of the included JAR file.
+
 ### Installation
 
 ```{r eval=FALSE}

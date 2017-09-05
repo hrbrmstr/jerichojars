@@ -7,6 +7,8 @@ As a result of using a Java library, this package requires `rJava`.
 
 While the main intent is to use this with `jericho`, you can use it out of the box as-is (see below and the [javadocs](http://jericho.htmlparser.net/docs/javadoc/index.html)).
 
+NOTE: Package version \# reflects the version \# of the included JAR file.
+
 ### Installation
 
 ``` r
@@ -40,7 +42,7 @@ map(sites_html, ~{
 
     ## [[1]]
     ##  [1] "https://medium.com/"                                                                                                                                 
-    ##  [2] "https://medium.com/starts-with-a-bang?source=logo-lo_78fe6677dd7f---458a773bccd2"                                                                    
+    ##  [2] "https://medium.com/starts-with-a-bang?source=logo-lo_63f97dffeb52---458a773bccd2"                                                                    
     ##  [3] "https://twitter.com/startswithabang"                                                                                                                 
     ##  [4] "//facebook.com/startswithabang"                                                                                                                      
     ##  [5] "https://medium.com/m/signin?redirect=https%3A%2F%2Fmedium.com%2Fstarts-with-a-bang%2Fscience-knows-if-a-nation-is-testing-nuclear-bombs-ec5db88f4526"
