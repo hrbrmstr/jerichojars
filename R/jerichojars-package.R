@@ -1,4 +1,4 @@
-#' Java Archive Wrapper Supporting the 'jericho' Package
+# Java Archive Wrapper Supporting the 'jericho' Package
 #'
 #' Contents of the 'Jericho HTML Parser' Java archive by
 #' Martin Jericho <http://jericho.htmlparser.net/docs/index.html> provided to

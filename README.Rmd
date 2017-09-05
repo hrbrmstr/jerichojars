@@ -8,9 +8,35 @@ Contents of the 'Jericho HTML Parser' Java archive by Martin Jericho <http://jer
 
 As a result of using a Java library, this package requires `rJava`.
 
+While the main intent is to use this with `jericho`, you can use it out of the box as-is (see below and the [javadocs](http://jericho.htmlparser.net/docs/javadoc/index.html)).
+
 ### Installation
 
 ```{r eval=FALSE}
 devtools::install_github("hrbrmstr/jerichojars")
 ```
 
+```{r message=FALSE, error=FALSE, warning=FALSE}
+library(jerichojars)
+library(tidyverse)
+
+c(
+  "https://medium.com/starts-with-a-bang/science-knows-if-a-nation-is-testing-nuclear-bombs-ec5db88f4526",
+  "https://en.wikipedia.org/wiki/Timeline_of_antisemitism",
+  "http://www.healthsecuritysolutions.com/2017/09/04/watch-out-more-ransomware-attacks-incoming/",
+  "http://rud.is/b/"
+) -> urls
+
+map_chr(urls, ~paste0(read_lines(.x), collapse="\n")) -> sites_html
+
+map(sites_html, ~{
+  
+  b <- new(J("net.htmlparser.jericho.Source"), .x)
+  
+  b$getAllElements("a") %>% 
+    as.list() %>% 
+    map(~.x$getAttributeValue("href")) %>% 
+    flatten_chr()
+  
+}) 
+```
