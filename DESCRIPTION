@@ -1,0 +1,24 @@
+Package: jerichojars
+Type: Package
+Title: Java Archive Wrapper Supporting the 'jericho' Package
+Version: 0.1.0
+Date: 2017-09-04
+Authors@R: c(
+    person("Bob", "Rudis", role = c("aut", "cre"), email = "bob@rud.is"),
+    person("Martin", "Jericho", role = c("ctb"), comment = "Jericho HTML Parser")
+  )
+Maintainer: Bob Rudis <bob@rud.is>
+SystemRequirements: Java
+Description: Contents of the 'Jericho HTML Parser' Java archive by
+    Martin Jericho <http://jericho.htmlparser.net/docs/index.html> provided to
+    support functions in the 'jericho' package.
+URL: https://github.com/hrbrmstr/jerichojars
+BugReports: https://github.com/hrbrmstr/jerichojars/issues
+License: Apache License 2.0 | file LICENSE
+Suggests:
+    testthat,
+    covr
+Depends:
+    R (>= 3.2.0),
+    rJava
+RoxygenNote: 6.0.1
