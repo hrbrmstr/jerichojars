@@ -2,7 +2,7 @@ Package: jerichojars
 Type: Package
 Title: Java Archive Wrapper Supporting the 'jericho' Package
 Version: 3.4.0
-Date: 2017-09-04
+Date: 2019-03-01
 Authors@R: c(
     person("Bob", "Rudis", role = c("aut", "cre"), email = "bob@rud.is"),
     person("Martin", "Jericho", role = c("ctb"), comment = "Jericho HTML Parser")
@@ -16,6 +16,7 @@ Description: Contents of the 'Jericho HTML Parser' Java archive by
 URL: https://github.com/hrbrmstr/jerichojars
 BugReports: https://github.com/hrbrmstr/jerichojars/issues
 License: Apache License 2.0 | file LICENSE
+Encoding: UTF-8
 Suggests:
     testthat,
     covr
