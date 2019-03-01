@@ -22,4 +22,4 @@ Suggests:
 Depends:
     R (>= 3.2.0),
     rJava
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1

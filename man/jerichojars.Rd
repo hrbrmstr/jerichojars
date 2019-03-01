@@ -4,7 +4,9 @@
 \name{jerichojars}
 \alias{jerichojars}
 \alias{jerichojars-package}
-\title{Java Archive Wrapper Supporting the 'jericho' Package}
+\title{Contents of the 'Jericho HTML Parser' Java archive by
+Martin Jericho \url{http://jericho.htmlparser.net/docs/index.html} provided to
+support functions in the 'jericho' package.}
 \description{
 Contents of the 'Jericho HTML Parser' Java archive by
 Martin Jericho \url{http://jericho.htmlparser.net/docs/index.html} provided to
